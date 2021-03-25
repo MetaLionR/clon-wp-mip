@@ -1,0 +1,232 @@
+@media only screen
+and (min-device-width: 769px)
+and (max-device-width: 1025px){
+    .header{
+     width: 100%;
+        min-height: 650px;
+    }
+    .menu{
+        background-color: white;
+        min-height: 100px;
+        min-width: 0px;
+    } 
+    .logo{
+        background-image: url(../Images/favicon-1.png);
+        left: 46%;
+        width: 85px;
+        height: 85px;
+        top: 5%;
+    }
+    .social-network{
+        display: none;
+    }
+    .menu-botton-mobile{
+        display: block;
+        position: absolute;
+        top: 32%;
+        left: 7%;
+        background-image: url(../Images/menu.svg);
+        width: 32px;
+        height: 32px;
+        background-size: 100% 100%;
+    }
+    .menu-main{
+        display: none;
+    }
+    .menu-main-mobile{
+        display: none;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        transition: 0.5s;
+    }
+    #menu-main-text-style{
+        text-align: left;
+         font-size: 18px;
+        font-family: 'Open Sans', sans-serif
+    }
+    .menu-main-text-mobile{
+            left: 7%;
+        padding: 15px 0px 15px 0px;
+        border-top: 1.5px solid #62b238;
+        border-bottom: 1.5px solid #62b238;
+        width: 86%;
+    }
+    .menu-main-text-v1{
+        position: absolute;
+    }
+    .menu-main-text-v2{
+        position: absolute;
+        top: 55px;
+        border-top: none;
+    }
+    .menu-main-text-v3{
+        position: absolute;
+        top: 105px;
+        border-top: none;
+    }
+    .header-block-info{
+        min-height: 730px;
+        position: absolute;
+    }
+    .header-block-info-center{
+        position: absolute;
+        width: 95%;
+    }
+    .header-block-info-center{
+        top: 10%;
+    }
+    .header-text-fon{
+        left: 49%;
+        font-size: 75px;
+        top: 28%;
+    }
+    .foto-fon-aftor{
+        top: 0px;
+        width: 373px;
+        height: 215px;
+        left: 41%;
+        background-size: 100% 100%;
+    }
+    .header-block-afror-last-name{
+         font-size: 44px;
+        left: 7%;
+        top: 25px;
+    }
+    .header-block-afror-name{
+        font-size: 34px;
+        top: 80px;
+        left: 8%;
+    }
+    .main-block-fon{
+        border: none;
+    }
+    .header-block-info-center-text{
+        top: 130px;
+        left: 9%;
+        font-size: 24px;
+    }
+    .info-arrow-right{
+        top: 157px;
+        left: 10%;
+    }
+    .info-arrow-right{
+        background-size: 60px 42px;
+        height: 72px;
+    }
+    .fon-textchief{
+        top: -37px;
+        left: 39%;
+        font-size: 54px;
+    }
+    .dop-info-v1{
+        font-size: 13px;
+        left: 7%;
+        width: 90%;
+        top: 230px;
+    }
+    .dop-info-v2{
+        font-size: 13px;
+        left: 7%;
+        width: 90%;
+        top: 255px;
+    }
+    .dop-info-v3{
+        font-size: 13px;
+        left: 7%;
+        width: 90%;
+        top: 285px;
+    }
+    .dop-info-v4{
+        font-size: 13px;
+        left: 7%;
+        width: 90%;
+        top: 310px;
+    }
+    .dop-info-v5{
+        font-size: 13px;
+        left: 7%;
+        width: 90%;
+        top: 335px;
+    }
+    .main{
+        height: 102.9vh;
+    }
+    .main-block-fon{
+         width: 50vw;
+         height: 55vh;
+    }
+    .main-block-text{
+        padding: 0xp;
+        margin: 0px;
+        top: 15%;
+        width: 90%;
+        height: 40%;
+    }
+    .main-block-paragraph{
+        font-size: 18px;
+    }
+    .main-block-category{
+        font-size: 12px;
+    }
+    .percentage-0{
+    width: 25vw;
+    height: 34.33vh;
+    }
+    .percentage-25{
+        width: 25vw;
+        height: 34.33vh;
+    }
+    .percentage-50{
+         width: 25vw;
+        height: 34.33vh;
+    }
+    .percentage-75{
+        width: 25vw;
+        height: 34.33vh;
+}
+    
+    footer{
+        height: 40vh;
+    }
+    .ft-message{
+        top: 5px;
+        font-size: 22px;
+    }
+    .message-pointer{
+        top: 25%;
+        left: 10%;
+        background-position: 150px 0px;
+        background-size: 36px 36px;
+    }
+    .footer-social-block{
+        top: 44%;
+        left: 40%;
+    }
+    .fts-text{
+        font-size: 12px;
+        top: 9px;
+    }
+    .fcb-facebook{
+        left: 96px;
+    }
+    .fcb-twitter{
+        left: 126px;
+    }
+    .fcb-linkedin{
+        left: 156px;
+    }
+    .fcb-instagram{
+        left: 196px;
+    }
+    .footer-position{
+        top: 20px;
+        width: 16px;
+        height: 16px;
+    }
+    .copiraight-text{
+        top: 30%;
+        left: 39%;
+    }
+}

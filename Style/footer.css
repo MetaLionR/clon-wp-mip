@@ -1,0 +1,79 @@
+footer{
+    width: 100%;
+    height: 474px;
+    background-color: #ffea00;
+    border-bottom: 1px solid black;
+    position: relative;
+    display: block;
+}
+.message-pointer{
+    position: absolute;
+    top: 204px;
+    left: 200px;
+    width: 500px;
+    height: 64px;
+    background-image: url(../Images/right-arrow.svg);
+    background-size: 60px; 60px;
+    background-repeat: no-repeat;
+    background-position: 340px 0px;
+    transition: 0.8s;
+}
+.message-pointer:hover{
+    background-position: 360px 0px;
+}
+.ft-message{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0px;
+}
+.footer-social-block{
+    position: absolute;
+    top: 204px;
+    left: 75%;
+    width: 300px;
+    height: 64px;
+}
+.fts-text{
+    position: absolute;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+.footer-position{
+    position: absolute;
+    top: 18px;
+    opacity: 0.6;
+}
+.footer-position:hover{
+    opacity: 1;
+}
+.fcb-facebook{
+    left: 146px;
+}
+.fcb-twitter{
+    left: 186px;
+}
+.fcb-linkedin{
+    left: 226px;
+}
+.fcb-instagram{
+    left: 266px;
+}
+.copiraight{
+    position: relative;
+    width: 100%;
+    height: 52px;
+}
+.copiraight-text{
+    position: absolute;
+    left: 47%;
+    top: 20px;
+     text-align: center;
+    color: black;
+    transition: 0.3s;
+}
+.copiraight-text:hover{
+    color: red;
+}

@@ -1,0 +1,203 @@
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 768px){
+    .header{
+     width: 100%;
+        min-height: 900px;
+    }
+    .menu{
+        background-color: white;
+        min-height: 100px;
+        min-width: 0px;
+    } 
+    .logo{
+        background-image: url(../Images/favicon-1.png);
+        left: 46%;
+        width: 85px;
+        height: 85px;
+        top: 5%;
+    }
+    .social-network{
+        display: none;
+    }
+    .menu-botton-mobile{
+        display: block;
+        position: absolute;
+        top: 40%;
+        left: 7%;
+        background-image: url(../Images/menu.svg);
+        width: 32px;
+        height: 32px;
+        background-size: 100% 100%;
+    }
+    .menu-main{
+        display: none;
+    }
+    .menu-main-mobile{
+        display: none;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        transition: 0.5s;
+    }
+    #menu-main-text-style{
+        text-align: left;
+         font-size: 18px;
+        font-family: 'Open Sans', sans-serif
+    }
+    .menu-main-text-mobile{
+            left: 7%;
+        padding: 15px 0px 15px 0px;
+        border-top: 1.5px solid #62b238;
+        border-bottom: 1.5px solid #62b238;
+        width: 86%;
+    }
+    .menu-main-text-v1{
+        position: absolute;
+    }
+    .menu-main-text-v2{
+        position: absolute;
+        top: 55px;
+        border-top: none;
+    }
+    .menu-main-text-v3{
+        position: absolute;
+        top: 105px;
+        border-top: none;
+    }
+    .header-block-info-center{
+        position: absolute;
+        width: 95%;
+    }
+    .header-block-info-center{
+        top: 10%;
+    }
+    .header-text-fon{
+        left: 39%;
+        font-size: 95px;
+        top: 28%;
+    }
+    .foto-fon-aftor{
+        top: 0px;
+        width: 393px;
+        height: 225px;
+        left: 31%;
+        background-size: 100% 100%;
+    }
+    .header-block-afror-last-name{
+         font-size: 54px;
+        left: 7%;
+        top: 25px;
+    }
+    .header-block-afror-name{
+        font-size: 44px;
+        top: 100px;
+        left: 7%;
+    }
+    .main-block-fon{
+        border: none;
+    }
+    .header-block-info-center-text{
+        top: 160px;
+        left: 7%;
+        font-size: 34px;
+    }
+    .info-arrow-right{
+        top: 207px;
+        left: 7%;
+    }
+    .info-arrow-right{
+        background-size: 70px 52px;
+        height: 72px;
+    }
+    .fon-textchief{
+        top: -50px;
+        left: 37%;
+        font-size: 54px;
+    }
+    .dop-info-v1{
+        font-size: 20px;
+        left: 7%;
+        width: 90%;
+        top: 340px;
+    }
+    .dop-info-v2{
+        font-size: 20px;
+        left: 7%;
+        width: 90%;
+        top: 370px;
+    }
+    .dop-info-v3{
+        font-size: 20px;
+        left: 7%;
+        width: 90%;
+        top: 410px;
+    }
+    .dop-info-v4{
+        font-size: 20px;
+        left: 7%;
+        width: 90%;
+        top: 450px;
+    }
+    .dop-info-v5{
+        font-size: 20px;
+        left: 7%;
+        width: 90%;
+        top: 490px;
+    }
+    .main{
+        height: 330vh;
+    }
+    .main-block-fon{
+         width: 50vw;
+         height: 55vh;
+    }
+    
+    
+    footer{
+        height: 40vh;
+    }
+    .message-pointer{
+        top: 25%;
+        left: 10%;
+    }
+    .footer-social-block{
+        top: 50%;
+        left: 40%;
+    }
+    .ft-message{
+        font-size: 36px;
+    }
+    .message-pointer{
+        top: 25%;
+        left: 10%;
+        background-position: 250px 5px;
+        background-size: 36px 36px;
+    }
+    .fts-text{
+        top: -5px;
+        font-size: 22px;
+    }
+    .fcb-facebook{
+        left: 176px;
+    }
+    .fcb-twitter{
+        left: 216px;
+    }
+    .fcb-linkedin{
+        left: 256px;
+    }
+    .fcb-instagram{
+        left: 296px;
+    }
+    .footer-position{
+        top: 20px;
+        width: 22px;
+        height: 22px;
+    }
+    .copiraight-text{
+        top: 30%;
+        left: 39%;
+    }
+}

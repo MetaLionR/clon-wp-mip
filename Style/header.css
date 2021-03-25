@@ -1,0 +1,132 @@
+.header{
+    width: 100vw;
+    height: 100vh;
+}
+.header-text-fon{
+    position: absolute;
+    left: 35%;
+    top: -250px;
+    font-size: 345px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.header-block-info{
+    position: relative;
+    width: 100%;
+     height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-block-info-center{
+    width: 1380px;
+    height: 100%;
+    position: relative;
+    top: 20%;
+    margin: 0 auto;
+    /*background-color: white;*/
+}
+.foto-fon-aftor{
+    background-image: url(../Images/Slider-1.jpg);
+    position: absolute;
+    width: 843px;
+    height: 495px;
+    left: 21.5%;
+    cursor: default;
+   
+}
+.header-block-afror-last-name{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-size: 124px;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+}
+.header-block-afror-name{
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    font-size: 124px;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+}
+.header-block-info-center-text{
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+.info-arrow-right{
+     position: absolute;
+    top: 360px;
+    left: 35px;
+    background-image: url(../Images/right.svg);
+    background-size: 60px 44px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 44px;
+     transition: 0.9s linear;
+     transform: scale(1.0);
+}
+.info-arrow-right:hover{
+    background-position: 40px 0px;
+}
+.fon-textchief{
+     position: absolute;
+    top: 162px;
+    left: 29.8%;
+    font-size: 74px;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    opacity: 0.9;
+    cursor: default;
+}
+.dop-info-v1{
+    position: absolute;
+    width: 400px;
+    height: 15px;
+    top: 510px;
+    left: 51%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+.dop-info-v2{
+    position: absolute;
+    width: 400px;
+    height: 15px;
+    top: 525px;
+    left: 51%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dop-info-v3{
+    position: absolute;
+    width: 400px;
+    height: 15px;
+    top: 545px;
+    left: 51%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dop-info-v4{
+    position: absolute;
+    width: 400px;
+    height: 15px;
+    top: 565px;
+    left: 51%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dop-info-v5{
+    position: absolute;
+    width: 400px;
+    height: 15px;
+    top: 585px;
+    left: 51%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}

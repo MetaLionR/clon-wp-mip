@@ -1,0 +1,192 @@
+@media only screen
+and (min-device-width: 300px)
+and (max-device-width: 480px){
+    .header{
+   min-height: 1038px;
+        
+    }
+    .menu{
+        background-color: white;
+        min-width: 260px;
+        min-height: 160px;
+    } 
+    .logo{
+        background-image: url(../Images/favicon-1.png);
+        left: 42%;
+        width: 135px;
+        height: 135px;
+        top: 10px;
+    }
+    .social-network{
+        display: none;
+    }
+    .menu-botton-mobile{
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 7%;
+        background-image: url(../Images/menu.svg);
+        width: 32px;
+        height: 32px;
+        background-size: 100% 100%;
+    }
+    .menu-main{
+        display: none;
+    }
+    .menu-main-mobile{
+        display: none;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        transition: 0.5s;
+    }
+    #menu-main-text-style{
+        text-align: left;
+         font-size: 18px;
+        font-family: 'Open Sans', sans-serif
+    }
+    .menu-main-text-mobile{
+            left: 7%;
+        padding: 15px 0px 15px 0px;
+        border-top: 1.5px solid #62b238;
+        border-bottom: 1.5px solid #62b238;
+        width: 86%;
+    }
+    .menu-main-text-v1{
+        position: absolute;
+    }
+    .menu-main-text-v2{
+        position: absolute;
+        top: 55px;
+        border-top: none;
+    }
+    .menu-main-text-v3{
+        position: absolute;
+        top: 105px;
+        border-top: none;
+    }
+    .header-block-info{
+        top: 13%;
+    }
+    .header-block-info-center{
+        position: absolute;
+        width: 95%;
+    }
+    .header-block-info-center{
+        top: 10%;
+    }
+    .header-text-fon{
+        left: 7%;
+        font-size: 145px;
+        top: -105px;
+    }
+    .foto-fon-aftor{
+        width: 90%;
+        left: 14%;
+    }
+    .header-block-afror-last-name{
+         font-size: 94px;
+        left: 3%;
+    }
+    .header-block-afror-name{
+        font-size: 84px;
+        top: 160px;
+        left: 3%;
+    }
+    .main-block-fon{
+        border: none;
+    }
+    .header-block-info-center-text{
+        top: 280px;
+        left: 3%;
+    }
+    .info-arrow-right{
+        top: 350px;
+        left: 3%;
+    }
+    .info-arrow-right{
+        background-size: 70px 52px;
+        height: 72px;
+    }
+    .fon-textchief{
+        top: 23%;
+        left: 49%;
+        font-size: 42px;
+    }
+    .dop-info-v1{
+        font-size: 28px;
+        left: 10%;
+        width: 90%;
+        top: 550px;
+    }
+    .dop-info-v2{
+        font-size: 28px;
+        left: 10%;
+        width: 90%;
+        top: 590px;
+    }
+    .dop-info-v3{
+        font-size: 28px;
+        left: 10%;
+        width: 90%;
+        top: 650px;
+    }
+    .dop-info-v4{
+        font-size: 28px;
+        left: 10%;
+        width: 90%;
+        top: 710px;
+    }
+    .dop-info-v5{
+        font-size: 28px;
+        left: 10%;
+        width: 90%;
+        top: 760px;
+    }
+    .main{
+        height: 660vh;
+    }
+    .main-block-fon{
+         width: 100vw;
+         height: 55vh;
+    }
+    
+    
+    footer{
+        height: 60vh;
+    }
+    .message-pointer{
+        top: 25%;
+        left: 10%;
+    }
+    .footer-social-block{
+        top: 50%;
+        left: 40%;
+    }
+    .fts-text{
+        font-size: 22px;
+    }
+    .fcb-facebook{
+        left: 176px;
+    }
+    .fcb-twitter{
+        left: 216px;
+    }
+    .fcb-linkedin{
+        left: 256px;
+    }
+    .fcb-instagram{
+        left: 296px;
+    }
+    .footer-position{
+        top: 20px;
+        width: 22px;
+        height: 22px;
+    }
+    .copiraight-text{
+        top: 30%;
+        left: 39%;
+    }
+}
+

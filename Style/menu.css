@@ -1,0 +1,90 @@
+.menu{
+    position: relative;
+    width: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+    height: 100px;
+}
+li{
+    text-align: center;
+}
+.menu-botton-mobile{
+    display: none;
+}
+.menu-main-mobile{
+    display: none;
+}
+.logo{
+    position: absolute;
+    left: 2.4%;
+    top: 5px;
+    width: 83px;
+    height: 90px;
+    background-image: url(../Images/chef-fedorov.png);
+    background-size: 100% 100%;
+}
+.menu-main{
+    position: absolute;
+    left: 45%;
+    top: 26px;
+}
+.menu-main-ul{
+    max-width: 200px;
+}
+.menu-main-text{
+    float: left;
+}
+.menu-main-text-center{
+    margin: 0px 0px 0px 17px
+}
+.menu-main-text-right{
+    margin: 0px 0px 0px 17px
+}
+.menu-main-text{
+    list-style: none;
+    color: black;
+}
+#menu-main-text-style{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+#menu-main-text-style:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.social-network{
+    position: absolute;
+    max-width: 200px;
+    top: 38px;
+    left: 90%;
+    overflow: auto;
+}
+.social-network-size{
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+.social-network-float{
+    float: left;
+    margin: 0px 20px 0px 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.facebook-icon-cod{
+    background-image: url(../Images/facebook.svg);
+    background-size: 100% 100%;
+}
+.twitter-icon-cod{
+     background-image: url(../Images/twitter.svg);
+    background-size: 100% 100%;
+}
+.linkedin-icon-cod{
+     background-image: url(../Images/linked-in-logo-of-two-letters.svg);
+    background-size: 100% 100%;
+}
+.instagram-icon-cod{
+     background-image: url(../Images/instagram.svg);
+    background-size: 100% 100%;
+}
+/* ------------menu------------*/
